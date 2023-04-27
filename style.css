@@ -1,0 +1,223 @@
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --onHover: #27ae60;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    transition: all .2s linear;
+  }
+
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+  }
+
+  section{
+    padding: 2rem 9%;
+  } 
+
+  section:nth-child(even){
+    background: #eee;
+  }
+
+h2{
+  padding: 20px;
+  text-align: center;
+  font-size: 4rem;
+  color: var(--green);
+}
+  /* header  style  starts */
+  header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #9ddba9;
+    padding: 1rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+  }
+
+  header .logo{
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+
+  header .logo i{
+    color: var(--green);
+    padding: 5px 12px;
+  } 
+
+  header .navbar a{
+    font-size: 1.7rem;
+    font-weight: 600;
+    border-radius: .5rem;
+    padding: .5rem 3rem;
+    color: #080a72;
+  }
+  header .navbar a.active, 
+  header .navbar a:hover{
+    color: #fff;
+    background: var(--green);
+  }
+  header .icons{
+    display: none;     
+  }
+   /* header  style  ends */
+
+/* first section style */
+.first_section{
+    min-height: 100vh;
+    padding: 200px 80px;
+}
+.first_section .row{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: stretch;
+}
+.first_agricultureimage img{
+   width: 100%;
+}
+.first_section .row .headline{
+    font-size:2rem;
+    padding:20px 12px;
+}
+.first_section .row .headline p{
+  padding: 2px 1px;
+}
+button{
+    background-color: #1c5328;
+    color: #fff;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-top: 50px;
+    border-style: none;
+}
+button:hover{
+  background-color: var(--onHover);
+  cursor: pointer;
+}
+/* first section style end */
+
+/* second section style starts */
+.second_section{
+  display: block;
+}
+.container_body{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1.5rem;
+}
+.container{
+  padding: 12px 30px;
+  border-radius: 20px;
+  background-color: #6fd399;
+}
+.container:hover{
+  background-color: var(--onHover);
+}
+.image img{
+  width: 20rem;
+}
+/* second section style end */
+
+/* third section style starts */
+.third_section{
+  display: block;
+}
+.container_body2{
+   display: grid;
+   grid-template-columns: auto auto;
+}
+.about_image img{ 
+  width: 100%;
+}
+.aboutus_text{
+  text-align: center;
+  padding: 20px;
+}
+/* third section style end */
+
+
+/* footer style starts */
+.footer .box-container{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+ }
+
+ .footer .box-container .box h3{
+    padding: .5rem 0;
+    font-size: 2.5rem;
+    color: var(--black);
+ }
+
+ .footer .box-container .box a{
+  display: block;
+  padding: .5rem 0;
+  font-size: 1.5rem;
+  color: var(--light-color);
+ }
+
+ .footer .box-container .box a:hover{
+  color: var(--green);
+  text-decoration: underline;
+ }
+
+ .footer .credit{
+  text-align: center;
+  border-top: .1rem solid rgba(0,0,0,.1);
+  font-size: 2rem;
+  color: var(--black);
+  padding: .5rem;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+ }
+
+ .footer .credit span{
+   color: var(--green);
+ }
+/* footer style ends */
+
+  /* media queries starts */
+  @media (max-width:1240px){
+    section{
+    padding: 2rem;
+    }
+}
+
+@media (max-width:768px){
+     header .navbar{
+        display:none;
+     }
+     header .icons{
+        display: block;
+        color: var(--black); 
+        font-size: 2rem;    
+      }
+      header .icons:hover{
+        color: var(--green);
+        cursor: pointer;
+      }  
+    }  
+
+@media (max-width:998px){
+    header .navbar a{
+        font-size: 1.2rem;
+        padding: .5rem 2rem;
+      }
+}
+  /* media queries ends */

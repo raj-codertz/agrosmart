@@ -1,0 +1,120 @@
+@media (max-width:1240px){
+    section{
+    padding: 2rem;
+    }
+    
+}
+
+@media (max-width:768px){
+     header{
+      position: relative;
+      width: 100%;
+     }
+     header .navbar{
+        width: 200px;
+        display:none;
+        flex-direction: column;
+        background-image: linear-gradient(145deg, #eee,  #9ddba9 );
+        position: absolute;
+        left: 100%;
+        top: -140%;
+        transform: translate(-100%, 140%);
+        box-shadow: -2px 2px 5px  rgba(0, 0, 0, 0.317);
+        border-radius: 10px black;
+        text-transform: uppercase;
+     }
+
+
+     header .icons{
+        display: flex;
+        justify-content: flex-start;
+        color: var(--black); 
+        font-size: 2rem;    
+      }
+
+      header .icons:hover{
+        display: flex;
+        color: var(--green);
+        cursor: pointer;
+      }
+
+      /* first section response */
+      .first_section .row{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: none;
+        align-items: stretch;
+      }
+
+      .headline{
+        order: 2;
+      }
+
+      .first_agricultureimage{
+        order: 1;
+      }
+
+      /* first imeisha */
+        .container_body{
+          display: block;
+          grid-template-columns: none;
+          justify-content: center;
+          
+        }
+
+        .container{
+          width: 100%;
+          padding: 12px 30px;
+          text-align: center;
+          align-items: center;
+          border-radius: 20px;
+          font-size: 2rem;;
+          background-color: #6fd399;
+          margin-bottom: 10px;
+        }
+
+        .container .image img{
+          width: 100%;
+        }
+
+        .container .details{
+          border-top: 1px solid rgba(194, 103, 28, 0.535);
+        }
+
+        .container .details h3{
+          padding: 10px;
+        }
+
+        /* aubout us sectin */
+        .container_body2{
+          display: block;
+          grid-template-columns: none;
+        }
+        /* about us end */
+
+        /* quick links */
+      .footer .box-container{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+       .box{
+        text-align: center;
+        width: 100%;
+        border-bottom: .1rem solid rgba(0, 0, 0, 0.147);
+      }
+
+      .footer .credit{
+        border-top: none;
+
+      }
+    }  
+
+@media (max-width:998px){
+    header .navbar a{
+        font-size: 1.2rem;
+        padding: .5rem 2rem;
+      }
+}

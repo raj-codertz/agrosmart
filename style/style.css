@@ -23,6 +23,12 @@
     scroll-behavior: smooth;
   }
 
+  body{
+    /* position: relative;
+    width: 100%; */
+    overflow: hidden;
+  }
+
   section{
     padding: 2rem 9%;
   } 
@@ -46,7 +52,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
+    z-index: 1;
     box-shadow: var(--box-shadow);
   }
 
@@ -98,7 +104,7 @@ h2{
 .first_section .row .headline p{
   padding: 2px 1px;
 }
-button{
+.chaguaButton{
     background-color: #1c5328;
     color: #fff;
     border-radius: 12px;
@@ -106,7 +112,7 @@ button{
     margin-top: 50px;
     border-style: none;
 }
-button:hover{
+.chaguaButton:hover{
   background-color: var(--onHover);
   cursor: pointer;
 }

@@ -3,7 +3,7 @@
     --black:#192a56;
     --light-color:#666;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
-    --onHover: #27ae60;
+    --onHover: #68af75;
 }
 
 *{
@@ -76,6 +76,7 @@ h2{
   header .icons{
     display: none;     
   }
+  
    /* header  style  ends */
 
 /* first section style */
@@ -117,12 +118,29 @@ button:hover{
   display: block;
   width: 100%;
 }
+
 .container_body{
   position: relative;
   width: 100%;
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 1.5rem;
+}
+.servicesbutoon{
+  background-color: var(--black);
+  padding: 7px 30px;
+  color: #eee;
+  border-radius: 10px;
+  margin: 2px;
+}
+.servicesbutoon:hover{
+  background-color: #080a72;
+}
+.container_body2{
+  /* width: 100%; */
+  display: flex;
+  /* grid-template-columns: auto auto; */
+  gap: 2rem;
 }
 .container{
   padding: 12px 30px;
@@ -154,6 +172,9 @@ button:hover{
 }
 /* third section style end */
 
+.bwanashambaContacts{
+  padding: 80px 0px;
+}
 
 /* footer style starts */
 .footer .box-container{

@@ -41,39 +41,21 @@
           <!-- css file link -->
      <link rel="stylesheet" href="style/style.css">
      <link rel="stylesheet" href="style/query-media.css">
-     <link rel="stylesheet" href="style/lgin-sigup.css">
       
      <!-- Font awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
     <title>AgroSmart</title>
 </head>
 <body>
-    <!-- Login page -->
-    <div class="loginPage" id="loginPageOpena">
-        
-        <div class="credin">
-            <span class="closepage" id="closePage">X</span>
-            <form action="index.php" method="post">
-                <label for="Email">Email</label>
-                <input type="email" name="emaili" required>
-                <label for="password">Password</label>
-                <input type="password" name="passwordi" required>
-                <button class="loginSubmit" id="loginSubmiti" name="submit">Submit</button>
-                <p>Click <a href="signup.php">here</a></span> if don't have an account</p>
-            </form>
-        </div>
-    </div>
-    <!-- Login page end -->
-    
     <!-- Beggining of header -->
     <header>
         <a href="#" class="logo"><i class="fa-solid fa-tractor"></i>AgroSmart.</a>
         <nav class="navbar">
-            <a class="active" href="#home">Home</a>
-            <a href="#AboutUs">About us</a>
+            <a class="active" href="index.html">Home</a>
             <a href="#Mazaoyetu">Mazao</a>
-            <a href="#about">BwanaMazaoContact</a>
-            <button class="loginButoon" id="loginButooni">Login</button>
+            <a href="#AboutUs">About us</a>
+            <a href="#services">Services</a>
+            <a href="login.html" class="login">Login</a>
         </nav>
         <div class="icons" id="burgerIcon">
             <i class="fa-solid fa-bars"></i>
@@ -89,11 +71,11 @@
                 <h1>Safe your Life with Agriculture</h1>
                 <p>We are everything to your problem and give you all the most possible solution.</p>
 
-                <button class="chaguaButton">Chagua Mkoa</button>
+                <button onclick="window.location.href='/pages/mkoa.html';">Chagua Mkoa</button>
             </div>
 
             <div class="first_agricultureimage">
-                <img src="crop-monitoring-via-mobile-device.svg">
+                <img src="farmers-smartphone-abugrafie-shutterstock_1356572210.jpg.jpeg">
             </div>
         </div>
         
@@ -107,89 +89,97 @@
      <div class="container_body">
           <div class="container">
             <div class="image">
-                <img src="farmers-using-smart-device-for-crop-monitoring.svg">
+                <img src="beans.jpg">
             </div>
             <div class="details">
                 <h3>Maharage</h3>
-            <p>Location: </p>
-            <p>Cost Price: </p>
+            <p>Location: Mbeya</p>
+            <p>Cost Price: Tsh 1200/=</p>
+            <p>Contact: 072351844</p>
             </div>
            </div>
     
            <div class="container">
             <div class="image">
-                <img src="farmers-using-smart-device-for-crop-monitoring.svg">
+                <img src="tomatoes_helios4eos_gettyimages-edit.jpeg">
             </div>
             <div class="details">
-                <h3>Maharage</h3>
-            <p>Location: </p>
-            <p>Cost Price: </p>
+                <h3>Nyanya</h3>
+            <p>Location: Iringa </p>
+            <p>Cost Price: Tsh 200/=</p>
+            <p>Contact: 072351844</p>
             </div>
            </div>
     
            <div class="container">
             <div class="image">
-                <img src="farmers-using-smart-device-for-crop-monitoring.svg">
+                <img src="corn-vs-maize-01.jpg">
             </div>
             <div class="details">
-                <h3>Maharage</h3>
-            <p>Location: </p>
-            <p>Cost Price: </p>
+                <h3>Mahindi</h3>
+            <p>Location: Tabora</p>
+            <p>Cost Price: Tsh 1200/=</p>
+            <p>Contact: 072351844</p>
             </div>
            </div>
     
            <div class="container">
             <div class="image">
-                <img src="farmers-using-smart-device-for-crop-monitoring.svg">
+                <img src="organic-coorg-cashew-nuts-500-gm-coorg-dry-fruits-whole-big-size.20220919003557.webp">
             </div>
             <div class="details">
-                <h3>Maharage</h3>
-            <p>Location: </p>
-            <p>Cost Price: </p>
+                <h3>Korosho</h3>
+                <p>Location: Tabora</p>
+                <p>Cost Price: Tsh 1200/=</p>
+                <p>Contact: 072351844</p>
             </div>
            </div>
 
            <div class="container">
             <div class="image">
-                <img src="farmers-using-smart-device-for-crop-monitoring.svg">
+                <img src="onions.jpeg">
             </div>
             <div class="details">
-                <h3>Maharage</h3>
-            <p>Location: </p>
-            <p>Cost Price: </p>
+                <h3>Vitunguu</h3>
+                <p>Location: Tabora</p>
+                <p>Cost Price: Tsh 1200/=</p>
+                <p>Contact: 072351844</p>
             </div>
            </div>
     
            <div class="container">
             <div class="image">
-                <img src="farmers-using-smart-device-for-crop-monitoring.svg">
+                <img src="mpunga.jpeg">
             </div>
             <div class="details">
-                <h3>Maharage</h3>
-            <p>Location: </p>
-            <p>Cost Price: </p>
+                <h3>Mpunga</h3>
+                <p>Location: Tabora</p>
+                <p>Cost Price: Tsh 1200/=</p>
+                <p>Contact: 072351844</p>
             </div>
            </div>
     
            <div class="container">
             <div class="image">
-                <img src="farmers-using-smart-device-for-crop-monitoring.svg">
+                <img src="types-of-flour-pin.jpg">
             </div>
             <div class="details">
-                <h3>Maharage</h3>
-            <p>Location: </p>
-            <p>Cost Price: </p>
+                <h3>Ngano</h3>
+                <p>Location: Tabora</p>
+                <p>Cost Price: Tsh 1200/=</p>
+                <p>Contact: 072351844</p>
             </div>
            </div>
     
            <div class="container">
             <div class="image">
-                <img src="farmers-using-smart-device-for-crop-monitoring.svg">
+                <img src="asali.webp">
             </div>
             <div class="details">
-                <h3>Maharage</h3>
-            <p>Location: </p>
-            <p>Cost Price: </p>
+                <h3>Asali</h3>
+                <p>Location: Tabora</p>
+                <p>Cost Price: Tsh 1200/=</p>
+                <p>Contact: 072351844</p>
             </div>
            </div>
      </div>
@@ -207,12 +197,53 @@
             </div>
             <div class="aboutus_text">
                 <h3 style="font-size: 25px; padding: 20px;">Our Agriculture life</h3>
-                <p style="font-size: 20px;">Lorem ipsum dolor sit amet c sjsfduksfvciods ipsum dolor sit amet c sjsfduksfvciods   vghkisgyuioln Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum officiis iste, eum soluta unde dolores excepturi molestiae quidem, dolor animi voluptatem quas error voluptatum saepe exercitationem, pariatur ex accusamus! Odit?   guolsnvgc8p</p>
-                <button class="loginButoon">Learn More</button>
+                <p style="font-size: 20px;">
+                   Agrosmart ni tovuti inayowawezesha wakulima wadogo kujifunza jinsi ya kufanya kilimo
+                sahihi kwa mazao ya kibiashara kwa kiwango kidogo.Tovuti hii inatoa maelezo ya njia bora za kilimo kwa kiwango 
+            kidogo pamoja na kupendekeza mazao yanayostahili kwa eneo husika huku ikiwapatia taarifa kuhusu bei za mazao.
+        Kwa kutumia AgroSmart, wakulima wadogo wanaweza kupata ufahamu wa jinsi ya kuendesha kilimo chao kwa ufasihi kwa njia 
+    ya video na maandiko kulingana na mkoa pamoja na mazao husika.</p>
+    <h3 style="font-size: 20px;">Agrosmart inatoa msaada mkubwa kwa wakulima wanaotafuta njia bora za kuendesha kilimo
+    chao kwa ufanisi zaidi na kupata faida zaidi kutokana na kilimo chao.</h3>
+            
             </div>
         </div>        
     </section>
-<!-- Second of third section -->
+<!-- End of third section -->
+
+
+ <!--Beggining of forth section -->
+ <section class="second_section" id="services">
+
+    <h2>Services</h2>
+ <div class="container_body2">
+      
+
+       <div class="container">
+        <div class="image">
+            <img src="farmers-using-smart-device-for-crop-monitoring.svg">
+        </div>
+        <div class="details">
+            <a href="bwanashambaContacts.html" class="servicesbutoon">Bwana Shamba contact</a>
+        </div>
+       </div>
+
+       <div class="container ">
+        <div class="image">
+            <img src="Build-An-Organic-E-commerce-Platform.png">
+        </div>
+        <div class="details">
+            <a href="login.html" class="servicesbutoon">Sell / Buy</a>
+      
+        </div>
+       </div>
+ </div>
+   
+
+</section>
+<!-- Ending of second section -->
+
+
 
 <section class="footer">
     <div class="box-container">
@@ -255,6 +286,5 @@
 
 </section>
 <script src="scripts/nav.js"></script>
-<script src="scripts/logiin.js"></script>
 </body>
 </html>

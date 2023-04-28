@@ -41,21 +41,38 @@
           <!-- css file link -->
      <link rel="stylesheet" href="style/style.css">
      <link rel="stylesheet" href="style/query-media.css">
+     <link rel="stylesheet" href="style/lgin-sigup.css">
       
      <!-- Font awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
     <title>AgroSmart</title>
 </head>
 <body>
+    <!-- Login page -->
+    <div class="loginPage" id="loginPageOpena">
+        
+        <div class="credin">
+            <span class="closepage" id="closePage">X</span>
+            <form action="index.php" method="post">
+                <label for="Email">Email</label>
+                <input type="email" name="emaili" required>
+                <label for="password">Password</label>
+                <input type="password" name="passwordi" required>
+                <button class="loginSubmit" id="loginSubmiti" name="submit">Submit</button>
+                <p>Click <a href="signup.php">here</a></span> if don't have an account</p>
+            </form>
+        </div>
+    </div>
+    <!-- Login page end -->
     <!-- Beggining of header -->
     <header>
         <a href="#" class="logo"><i class="fa-solid fa-tractor"></i>AgroSmart.</a>
         <nav class="navbar">
-            <a class="active" href="index.html">Home</a>
+            <a class="active" href="index.php">Home</a>
             <a href="#Mazaoyetu">Mazao</a>
             <a href="#AboutUs">About us</a>
             <a href="#services">Services</a>
-            <a href="login.html" class="login">Login</a>
+            <button class="loginButoon" id="loginButooni">Login</button>
         </nav>
         <div class="icons" id="burgerIcon">
             <i class="fa-solid fa-bars"></i>
@@ -71,7 +88,7 @@
                 <h1>Safe your Life with Agriculture</h1>
                 <p>We are everything to your problem and give you all the most possible solution.</p>
 
-                <button onclick="window.location.href='/pages/mkoa.html';">Chagua Mkoa</button>
+                <button class="chaguaButton" onclick="window.location.href='pages/mkoa.html'">Chagua Mkoa</button>
             </div>
 
             <div class="first_agricultureimage">
@@ -286,5 +303,6 @@
 
 </section>
 <script src="scripts/nav.js"></script>
+<script src="scripts/logiin.js"></script>
 </body>
 </html>

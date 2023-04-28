@@ -88,7 +88,7 @@
                 <label for="password">Password</label>
                 <input type="password" name="passwordis" required>
                 <button class="loginSubmit" id="loginSubmiti" name="Submit">Submit</button>
-                <p >Back <a href="index.html">Home</a> to login</p>
+                <p >Back <a href="index.php">Home</a> to login</p>
             </form>
         </div>
     </div>

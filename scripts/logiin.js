@@ -2,7 +2,7 @@ let navLoginBtn = document.getElementById("loginButooni")
 let wholeLoginPage = document.getElementById("loginPageOpena")
 let wholeSignUpPage = document.getElementById("signUpPageOpena")
 let closeLogin = document.getElementById("closePage")
-let ebableloginupBtn = document.getElementById("signupsi")
+// let ebableloginupBtn = document.getElementById("signupsi")
 
 function displayLoginPage(){
     document.body.style.overflow = 'hidden';
@@ -23,10 +23,6 @@ function disableSigup(){
     
 }
 
-document.addEventListener('load',  () => {
-
-    navLoginBtn.addEventListener('click', displayLoginPage)
-    closeLogin.addEventListener('click', closeLoginButton)
-    ebableloginupBtn.addEventListener('click', displayLoginPage)
-}
-)
+navLoginBtn.addEventListener('click', displayLoginPage)
+closeLogin.addEventListener('click', closeLoginButton)
+// ebableloginupBtn.addEventListener('click', displayLoginPage)

@@ -23,6 +23,10 @@ function disableSigup(){
     
 }
 
-navLoginBtn.addEventListener('click', displayLoginPage)
-closeLogin.addEventListener('click', closeLoginButton)
-ebableloginupBtn.addEventListener('click', displayLoginPage)
+document.addEventListener('load',  () => {
+
+    navLoginBtn.addEventListener('click', displayLoginPage)
+    closeLogin.addEventListener('click', closeLoginButton)
+    ebableloginupBtn.addEventListener('click', displayLoginPage)
+}
+)
